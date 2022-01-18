@@ -1,3 +1,4 @@
+// ---> TYPEWRITER <--- //
 document.addEventListener('DOMContentLoaded',function(event) {
     // array with texts to type in typewriter
     var dataText = ["Backend", "Sexy", "No more", "Bye!"];
