@@ -3,14 +3,15 @@
 ************************************************* **/
 :root{
     --background-color: #D1FDFF;
+    --re-background-color: #C2FCFF;
     --primary-color: #102266;
     --body-color: #000000;
-    --highlight-color: #427C80;
+    --highlight-color: #49FFD9;
     --header-color: #F4FBEE;
 }
 body{
     color: var(--body-color);
     font-family: 'Oswald', sans-serif;
     line-height: 1.09;
-    background: radial-gradient(circle,var(--background-color), var(--highlight-color));
+    background: radial-gradient(circle,var(--background-color), var(--re-background-color));
 }
