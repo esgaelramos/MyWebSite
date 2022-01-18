@@ -13,5 +13,17 @@ body{
     color: var(--body-color);
     font-family: 'Oswald', sans-serif;
     line-height: 1.09;
-    background: radial-gradient(circle,var(--background-color), var(--re-background-color));
+    background: radial-gradient(circle, var(--header-color), var(--background-color));
+}
+
+/* --- TYPE WRITER BANNER CARET --- */
+.cursor-text{
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret{
+    50% {
+      border-color: transparent;
+    }
 }
