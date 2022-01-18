@@ -37,6 +37,23 @@ main{
 .main-container h1{
     font-size: 39px;
 }
+
+.options-container{
+    margin: 2vw;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.option-item{
+    margin: 2vw;
+    padding: 1vw;
+    border-radius: 2px;
+    outline: 1px solid var(--primary-color);
+    min-width: 320px;
+}
+
+
 /* --- TYPE WRITER BANNER CARET --- */
 .cursor-text{
     border-right: .05em solid;
