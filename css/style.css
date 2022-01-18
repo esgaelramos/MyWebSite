@@ -22,6 +22,7 @@ body{
     animation: caret 1s steps(1) infinite;
 }
 
+/* --- CARET --- */
 @keyframes caret{
     50% {
       border-color: transparent;
