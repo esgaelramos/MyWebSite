@@ -21,11 +21,21 @@ a{
 /* **************************************************
     HEADER 
 ************************************************* **/
+/* .header-container{
+    height: 50px;
+    margin-top: 2px;
+    background-color: var(--body-color);
+    color: var(--background-color);
+} */
+
 /* **************************************************
     MAIN 
 ************************************************* **/
+main{
+    margin: 2.7vw;
+}
 .main-container h1{
-    font-size: 40px;
+    font-size: 39px;
 }
 /* --- TYPE WRITER BANNER CARET --- */
 .cursor-text{
