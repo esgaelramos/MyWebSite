@@ -60,6 +60,7 @@ main{
 .option-item-item{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: var(--primary-color);
 
 }
 
