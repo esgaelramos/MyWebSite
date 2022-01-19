@@ -21,12 +21,17 @@ a{
 /* **************************************************
     HEADER 
 ************************************************* **/
-/* .header-container{
+.header-container{
     height: 50px;
-    margin-top: 2px;
-    background-color: var(--body-color);
-    color: var(--background-color);
-} */
+    margin-top: -15px;
+    background-color: #07133f;
+    color: var(--header-color);
+}
+.header-message{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+}
 
 /* **************************************************
     MAIN 
@@ -35,7 +40,7 @@ main{
     margin: 2.7vw;
 }
 .main-container h1{
-    font-size: 39px;
+    font-size: 34px;
 }
 
 .options-container{
@@ -51,6 +56,11 @@ main{
     border-radius: 2px;
     outline: 1px solid var(--primary-color);
     min-width: 320px;
+}
+.option-item-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 
