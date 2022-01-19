@@ -32,7 +32,6 @@ a{
     text-align: right;
     padding: 10px;
 }
-
 /* **************************************************
     MAIN 
 ************************************************* **/
@@ -42,7 +41,7 @@ main{
 .main-container h1{
     font-size: 34px;
 }
-
+/* --- OPTIONS --- */
 .options-container{
     margin: 2vw;
     display: inline-flex;
@@ -54,27 +53,34 @@ main{
     margin: 2vw;
     padding: 1vw;
     border-radius: 2px;
-    outline: 1px solid var(--primary-color);
+    outline: 3px solid var(--primary-color);
     min-width: 320px;
 }
 .option-item-item{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 25% 1fr;
     color: var(--primary-color);
-
 }
-
-
+.option-item-item h2{
+    font-size: 27px;
+}
 /* --- TYPE WRITER BANNER CARET --- */
 .cursor-text{
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
-
 /* **************************************************
     FOOTER
 ************************************************* **/
-
+footer{
+    height: 70px;
+    background-color: #07133f;
+    color: var(--header-color);
+}
+.footer-final{
+    text-align: center;
+    padding: 25px;
+}
 /* **************************************************
     ANIMATIONS
 ************************************************* **/
