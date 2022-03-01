@@ -1,5 +1,5 @@
 # [MyWebSite](https://esgaelramos.xyz)
-My Web CV-PROPIO, it's a simple web static contact. 
+My Web Site Personal, it's a simple web static contact. 
 Make it with: HTML, CSS, JAVASCRIPT.
 
 ### Check Urls
